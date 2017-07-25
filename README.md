@@ -1,3 +1,5 @@
+My first foray into working with Ionic. All credits are explained below. I will be working to learn how to build this into an application that incorporates Google Firebase within the next 30 days.
+
 This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
 
 ## How to use this template
