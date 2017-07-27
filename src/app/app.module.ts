@@ -11,6 +11,25 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
+  // Import AngularFire2 Module
+  import { AngularFireModule } from 'angularfire2';
+
+  // AngularFire2 Settings (from Firebase)
+  export const firebaseConfig = {
+    apiKey: "AIzaSyARrtV4kViVCBS_tdS7Nk4VsdxNMNQBUb0",
+    authDomain: "ionic-firebase-hybrid.firebaseapp.com",
+    databaseURL: "https://ionic-firebase-hybrid.firebaseio.com",
+    projectId: "ionic-firebase-hybrid",
+    storageBucket: "ionic-firebase-hybrid.appspot.com",
+    messagingSenderId: "831011830515"
+  };
+
+  //Don't forget to Import AngularFire here
+  imports: [
+      IonicModule.forRoot(MyApp),
+      AngularFireModule.initializeApp(firebaseConfig)
+  ],
+
 @NgModule({
   declarations: [
     MyApp,
