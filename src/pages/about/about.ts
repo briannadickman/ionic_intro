@@ -8,7 +8,6 @@ import { ToastController } from 'ionic-angular';
 })
 
 export class AboutPage {
-
   constructor(public toastCtrl: ToastController) { }
 
    confirmSignIn(position: string) {

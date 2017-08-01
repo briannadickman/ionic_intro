@@ -26,6 +26,7 @@
     "@ionic/storage": "2.0.1",
     "angularfire2": "^2.0.0-beta.7-pre",
     "firebase": "^4.1.5",
+    "firebaseui": "^2.3.0",
     "ionic-angular": "3.5.3",
     "ionicons": "3.0.0",
     "rxjs": "5.4.0",
